@@ -1,15 +1,14 @@
 {
   "name": "react-portfolio",
-  "homepage": "https://UsmanSaleem5.github.io/Ali-Subhan",
-
+ "homepage": "https://UsmanSaleem5.github.io/Ali-Subhan",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-"predeploy": "npm run build",
-  "deploy": "gh-pages -d dist",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "lint": "eslint .",
     "preview": "vite preview"
   },
