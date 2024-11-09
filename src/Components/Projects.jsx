@@ -37,7 +37,7 @@ function Projects() {
                   href="https://usmansaleem5.github.io/NFT_MarketPlace/"  // Replace with the actual project URL
                   target="_blank" 
                   rel="noopener noreferrer"
-                  className="mt-4 w-[20%] justify-center items-center gap-3 px-2 py-1 text-sm bg-neutral-300 whitespace-nowrap text-black rounded hover:bg-blue-600 transition flex"
+                  className="mt-4 max-w-[20%] min-w-[50%] sm:min-w-[20%] justify-center items-center gap-3 px-2 py-1 text-sm bg-neutral-300 whitespace-nowrap text-black rounded hover:bg-blue-600 transition flex"
                 >
                   View Site
                   <FaArrowRightLong />
