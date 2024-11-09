@@ -9,7 +9,7 @@ function NavBar() {
     <nav>
 <div className=" flex mb-20 items-center justify-between py-2 ">
 <div className="flex flex-shrink-0 items-center">
-<a href="/"><img className="my-8 sm:mx-2 w-[5rem] mx-6  sm:w-28 " src={logo} alt="" /></a>
+<a href="/Ali-Subhan/"><img className="my-8 mx-2 w-[5rem]  sm:w-28 " src={logo} alt="" /></a>
 </div>
 <div className="m-8 flex items-center justify-center gap-4 text-2xl ">
 <a href='http://linkedin.com/in/alisubhan' target="_blank"  rel="noopener noreferrer" ><FaLinkedin/> </a>
