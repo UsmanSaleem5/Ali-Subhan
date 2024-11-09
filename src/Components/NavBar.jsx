@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from '../../public/logo.png'
+import logo from '../assets/Logo.png'
 import { FaLinkedin } from 'react-icons/fa'
 import { FaGithub } from 'react-icons/fa'
 import { FaWhatsapp} from 'react-icons/fa'
