@@ -44,8 +44,8 @@ export const PROJECTS = [
     title: "Admin Pannel",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "A powerful and intuitive Admin Panel designed to streamline user management and simplify backend operations. Built with the MERN stack, this panel includes dynamic user tables with pagination, custom filtering options, and real-time status toggling between active and suspended states. Implemented with responsive, professional UI styling to deliver seamless performance across devices, this project demonstrates advanced React and MongoDB integration, with efficient state management and an optimized user experience.",
+    technologies: ["React", "ExpressJS", "NodeJS", "MongoDB"],
   },
   {
     title: "Portfolio Website",
