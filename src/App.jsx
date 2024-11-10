@@ -37,7 +37,7 @@ function App() {
 
         {/* Route for Admin Panel blog */}
         <Route 
-          path="/Admin-Panel-blog" 
+          path="/Admin-Panel-Blog" 
           element={<AdminPanel />} 
         />
       </Routes>
