@@ -2,6 +2,7 @@ import React from 'react'
 import { PROJECTS } from '../constants'
 import { FaArrowRightLong } from "react-icons/fa6";
 import { motion } from 'framer-motion';
+import { Link } from 'react-router-dom';
 
 function Projects() {
   return (
@@ -58,15 +59,13 @@ function Projects() {
                 </a>
               )}
               {index === 1 && (
-                <a 
-                  href="/Admin-Pannel-Blog"  // Replace with the actual 
-
-                 
+                <Link 
+                  to="/Admin-Panel-Blog"  // Replace with the actual 
                   className="mt-4 max-w-[20%] min-w-[50%] sm:min-w-[20%] justify-center items-center gap-3 px-2 py-1 text-sm bg-neutral-300 whitespace-nowrap text-black rounded hover:bg-blue-600 transition flex"
                 >
                   See Details
                   <FaArrowRightLong />
-                </a>
+                </Link>
               )}
             </motion.div>
           </div>
