@@ -1,5 +1,9 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import dashboard from '../assets/dashboard-admin.png';
+import user_management from '../assets/user-management.png';
+import server_management from '../assets/server_admin.png';
+import admin_setting from '../assets/setting-admin.png';
 
 function AdminPanelBlog() {
   return (
@@ -26,7 +30,7 @@ function AdminPanelBlog() {
         whileInView={{ opacity: 1, scale: 1 }}
         initial={{ opacity: 0, scale: 0.8 }}
         transition={{ duration: 0.5 }}
-        src="path-to-image-dashboard-overview.jpg"
+        src={dashboard}
         alt="Admin Panel Dashboard Overview"
         className="mb-8 rounded shadow-lg"
       />
@@ -37,23 +41,23 @@ function AdminPanelBlog() {
         transition={{ duration: 0.5 }}
         className="mt-10 mb-6 text-3xl"
       >
-        Building the Core Dashboard
+        Comprehensive User Management
       </motion.h3>
 
       <motion.p
         whileInView={{ opacity: 1, x: 0 }}
-        initial={{ opacity: 0, x: 100 }}
+        initial={{ opacity: 0, x: -100 }}
         transition={{ duration: 0.5 }}
         className="mb-8 text-lg"
       >
-        I designed the dashboard as the central hub for admins, featuring real-time stats, user analytics, and active session tracking. My main focus was on clarity, so admins could quickly access essential information.
+        The VPN Admin Panel offers a highly detailed user management system that enables administrators to have full control over users. Admins can perform CRUD (Create, Read, Update, Delete) operations seamlessly. They can add new users, update existing profiles with the latest information, or suspend accounts when needed. This granular level of control ensures that the admin panel remains flexible and secure. Additionally, the system is designed to handle large user bases efficiently, making it ideal for scaling operations without compromising performance.
       </motion.p>
 
       <motion.img
         whileInView={{ opacity: 1, scale: 1 }}
         initial={{ opacity: 0, scale: 0.8 }}
         transition={{ duration: 0.5 }}
-        src="path-to-image-user-management.jpg"
+        src={user_management}
         alt="User Management Section"
         className="mb-8 rounded shadow-lg"
       />
@@ -64,34 +68,7 @@ function AdminPanelBlog() {
         transition={{ duration: 0.5 }}
         className="mt-10 mb-6 text-3xl"
       >
-        User Management with Granular Control
-      </motion.h3>
-
-      <motion.p
-        whileInView={{ opacity: 1, x: 0 }}
-        initial={{ opacity: 0, x: -100 }}
-        transition={{ duration: 0.5 }}
-        className="mb-8 text-lg"
-      >
-        The admin panel includes an advanced user management system, allowing administrators to view, edit, or suspend user accounts with a single click. This feature required careful design to ensure both security and usability.
-      </motion.p>
-
-      <motion.img
-        whileInView={{ opacity: 1, scale: 1 }}
-        initial={{ opacity: 0, scale: 0.8 }}
-        transition={{ duration: 0.5 }}
-        src="path-to-image-analytics.jpg"
-        alt="Analytics Section"
-        className="mb-8 rounded shadow-lg"
-      />
-
-      <motion.h3
-        whileInView={{ opacity: 1, y: 0 }}
-        initial={{ opacity: 0, y: 50 }}
-        transition={{ duration: 0.5 }}
-        className="mt-10 mb-6 text-3xl"
-      >
-        Deep Analytics and Insights
+        Server Management at Your Fingertips
       </motion.h3>
 
       <motion.p
@@ -100,37 +77,54 @@ function AdminPanelBlog() {
         transition={{ duration: 0.5 }}
         className="mb-8 text-lg"
       >
-        To make informed decisions, administrators have access to in-depth analytics. This section provides user activity breakdowns, session durations, and data usage summaries.
+        Managing servers has never been easier. The admin panel allows administrators to perform CRUD operations on servers, providing complete control over the network infrastructure. Admins can add new servers to scale up operations, update configurations to meet security and performance needs, or remove outdated servers that are no longer required. This feature ensures the VPN remains flexible, scalable, and aligned with business goals. With real-time updates and intuitive interfaces, managing servers becomes a streamlined task, even for large networks.
       </motion.p>
 
       <motion.img
         whileInView={{ opacity: 1, scale: 1 }}
         initial={{ opacity: 0, scale: 0.8 }}
         transition={{ duration: 0.5 }}
-        src="path-to-image-settings.jpg"
-        alt="Settings and Configurations"
+        src={server_management}
+        alt="Server Management Section"
         className="mb-8 rounded shadow-lg"
       />
 
-      <motion.h3
-        whileInView={{ opacity: 1, y: 0 }}
-        initial={{ opacity: 0, y: 50 }}
-        transition={{ duration: 0.5 }}
-        className="mt-10 mb-6 text-3xl"
-      >
-        Configurations and Settings
-      </motion.h3>
+<motion.h3
+  whileInView={{ opacity: 1, y: 0 }}
+  initial={{ opacity: 0, y: 50 }}
+  transition={{ duration: 0.5 }}
+  className="mt-10 mb-6 text-3xl"
+>
+  Settings and Configurations
+</motion.h3>
 
-      <motion.p
-        whileInView={{ opacity: 1, x: 0 }}
-        initial={{ opacity: 0, x: -100 }}
-        transition={{ duration: 0.5 }}
-        className="mb-8 text-lg"
-      >
-        The configuration panel allows admins to adjust VPN settings dynamically, including server locations, security protocols, and network restrictions. These adjustments are streamlined to ensure the application remains user-friendly and responsive.
-      </motion.p>
+<motion.p
+  whileInView={{ opacity: 1, x: 0 }}
+  initial={{ opacity: 0, x: -100 }}
+  transition={{ duration: 0.5 }}
+  className="mb-8 text-lg"
+>
+  The <strong>Settings and Configurations</strong> section of the VPN Admin Panel is designed to provide unparalleled control and flexibility to administrators. 
+  It includes tools for adjusting key VPN parameters such as server locations, connection protocols, and user access policies. 
+  Administrators can seamlessly toggle between different security protocols, ensuring the VPN remains both safe and adaptive to varying user needs. 
+  The system also allows for network restrictions and bandwidth limits to optimize performance. 
+  Every configuration is built with user experience in mind, offering a responsive interface where changes are applied in real-time. 
+  This section empowers admins to maintain operational efficiency while keeping security and accessibility at the forefront.
+</motion.p>
+
+<motion.img
+  whileInView={{ opacity: 1, scale: 1 }}
+  initial={{ opacity: 0, scale: 0.8 }}
+  transition={{ duration: 0.5 }}
+  src={admin_setting}
+  alt="Settings and Configurations"
+  className="mb-8 rounded shadow-lg"
+/>
+
+      
     </div>
   );
 }
 
 export default AdminPanelBlog;
+  
