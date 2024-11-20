@@ -65,7 +65,7 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  address: "Islamabad , IST University",
+  address: "IST University , Islamabad",
   phoneNo: "+92 346-9613122 ",
   email: "alisubhansaleem@gmail.com",
 };
