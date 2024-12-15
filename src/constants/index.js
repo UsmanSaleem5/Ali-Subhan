@@ -1,6 +1,6 @@
 import project1 from "../assets/project-1.jpg";
 import project2 from "../assets/project-2.jpg";
-import project3 from "../assets/project-3.jpg";
+import project3 from "../assets/project-3.png";
 import project4 from "../assets/project-4.jpg";
 
 export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 3 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, Express, CRUD APIs, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
@@ -33,6 +33,23 @@ export const EXPERIENCES = [
 ];
 
 export const PROJECTS = [
+
+  {
+    title: "AlphaCrypt VPN Landing Page",
+    description: "The AlphaCrypt VPN Landing Page is a fully responsive and modern web interface designed to promote AlphaCrypt VPN, a secure and fast VPN service. The page focuses on delivering an engaging user experience while showcasing the product’s features, benefits, and pricing plans.",
+    technologies: ["React", "Tailwind CSS", "DaisyUI"],
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8wIn7uqOWP7MaFAodUjnxw6Ua9pveZC4ijMbjlcIrA7twDA56y3Dpj24ZTUBFT0xIQ_0&usqp=CAU",
+    liveDemo: "https://alphacrypt-vpn.example.com",
+    github: "https://github.com/yourname/alphacrypt-vpn",
+  },
+
+  {
+    title: "Admin Pannel",
+    image: project2,
+    description:
+      "A powerful and intuitive Admin Panel designed to streamline user management and simplify backend operations. Built with the MERN stack, this panel includes dynamic user tables with pagination, custom filtering options, and real-time status toggling between active and suspended states. Implemented with responsive design.",
+    technologies: ["React", "ExpressJS", "NodeJS", "MongoDB"],
+  },
   {
     title: "Nft-MarketPlace Website",
     image: project1,
@@ -40,20 +57,7 @@ export const PROJECTS = [
       "A fully functional NFT e-commerce website with features like product listing, shopping cart, and user authentication. and whit that also have alot of pages like User Profile ",
     technologies: ["HTML", "CSS", "JavaScript", "Tailwind"],
   },
-  {
-    title: "Admin Pannel",
-    image: project2,
-    description:
-      "A powerful and intuitive Admin Panel designed to streamline user management and simplify backend operations. Built with the MERN stack, this panel includes dynamic user tables with pagination, custom filtering options, and real-time status toggling between active and suspended states. Implemented with responsive, professional UI styling to deliver seamless performance across devices, this project demonstrates advanced React and MongoDB integration, with efficient state management and an optimized user experience.",
-    technologies: ["React", "ExpressJS", "NodeJS", "MongoDB"],
-  },
-  {
-    title: "Portfolio Website",
-    image: project3,
-    description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
-  },
+
   {
     title: "Blogging Platform",
     image: project4,

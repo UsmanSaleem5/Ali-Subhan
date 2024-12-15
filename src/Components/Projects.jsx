@@ -49,7 +49,7 @@ function Projects() {
               {/* Conditionally render the View Site button for the first project only */}
               {index === 0 && (
                 <a 
-                  href="https://usmansaleem5.github.io/NFT_MarketPlace/"  // Replace with the actual project URL
+                  href="https://alphacryptvpn.com"  // Replace with the actual project URL
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="mt-4 max-w-[20%] min-w-[50%] sm:min-w-[20%] justify-center items-center gap-3 px-2 py-1 text-sm bg-neutral-300 whitespace-nowrap text-black rounded hover:bg-blue-600 transition flex"
@@ -64,6 +64,15 @@ function Projects() {
                   className="mt-4 max-w-[20%] min-w-[50%] sm:min-w-[20%] justify-center items-center gap-3 px-2 py-1 text-sm bg-neutral-300 whitespace-nowrap text-black rounded hover:bg-blue-600 transition flex"
                 >
                   See Details
+                  <FaArrowRightLong />
+                </Link>
+              )}
+              {index === 2 && (
+                <Link 
+                  to="https://usmansaleem5.github.io/NFT_MarketPlace/"  // Replace with the actual 
+                  className="mt-4 max-w-[20%] min-w-[50%] sm:min-w-[20%] justify-center items-center gap-3 px-2 py-1 text-sm bg-neutral-300 whitespace-nowrap text-black rounded hover:bg-blue-600 transition flex"
+                >
+                  View Site
                   <FaArrowRightLong />
                 </Link>
               )}

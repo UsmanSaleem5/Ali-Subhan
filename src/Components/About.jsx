@@ -30,7 +30,7 @@ className="w-full lg:w-1/2">
     <p className='my-2 max-w-xl py-6'>{ABOUT_TEXT}</p>
 </div>
    <div className="w-full flex justify-center pt-5">
-  <button type='download' className='bg-neutral-300 hover:bg-neutral-400 h-[60px] w-1/2 rounded-lg text-lg'> <a href={cv} download="Ali_Subhan_CV.pdf" class=" text-black ">Download CV</a>
+  <button type='download' className='bg-neutral-300 hover:bg-neutral-400 h-[60px] w-1/2 rounded-lg text-lg'> <a href={cv} download="Ali_Subhan_CV.pdf" className=" text-black ">Download CV</a>
   </button>
    </div>
 </motion.div>
